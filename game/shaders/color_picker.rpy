@@ -129,11 +129,8 @@ init -10 python:
 
         ni %= num_color_stops
 
-        try:
-            current = vec3(*__COLOR_STOPS[i])
-            next = vec3(*__COLOR_STOPS[ni])
-        except IndexError:
-            raise Exception('%s, %s, %s' % (pos, i, ni))
+        current = vec3(*__COLOR_STOPS[i])
+        next = vec3(*__COLOR_STOPS[ni])
     
         return mix(current, next, percent)
 
