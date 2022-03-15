@@ -16,7 +16,7 @@ Usage:
 default color = Color(rgb=(.33, .0, .33))
 screen test_color_picker:
     use color_picker(
-        VariableSimpleValue('color_picker_demo_color')
+        VariableSimpleValue('color')
     )
 ```
 Also, you can use color picker components(like *SaturationValueRect*, *ColorPickerHueRect*, *collection.color_picker.sat_value_rect* shader, etc) separately
