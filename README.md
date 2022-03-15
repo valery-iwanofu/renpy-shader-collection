@@ -1,13 +1,13 @@
 # Ren'Py shader collection
 
 ## Available shaders:
-* Waves ([Code](game/shaders/waves.rpy) | [Demo](game/demos/waves.rpy))
+### Waves ([Code](game/shaders/waves.rpy) | [Demo](game/demos/waves.rpy))
 
  Usage:
 ```
 TODO
 ```
-* Color picker ([Code](game/shaders/color_picker.rpy) | [Demo](game/demos/color_picker.rpy))
+### Color picker ([Code](game/shaders/color_picker.rpy) | [Demo](game/demos/color_picker.rpy))
 
 ![Preview](preview_images/color_picker.png)
 
